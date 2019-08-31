@@ -45,7 +45,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" it seems that we're facing technical issues...</strong> Could you please email us directly to <a href='mailto:info@vs-infotech.in?Subject= From vs-infotech.in'>info@vs-infotech.in</a> ? Sorry for the inconvenience!");
+            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" it seems that we're facing technical issues...</strong> Could you please email us directly to <a href='mailto:info@vs-infotech.in?Subject= Contact Form vs-infotech.in'>info@vs-infotech.in</a> ? Sorry for the inconvenience!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
